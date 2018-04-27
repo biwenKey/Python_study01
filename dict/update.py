@@ -22,6 +22,12 @@ n["k1"].append("x")
 print(n)
 
 
+n2 = {"k1":[]}
+ret = n2["k1"].append("w")
+print(ret)
+
+
+
 
 
 

@@ -15,5 +15,26 @@ goods = [
     {"name": "美女", "price": 998},
 ]
 
+gouwuche = []
+for i in goods:
+    print(i["name"],i["price"])
+qian = input("请输入您想要话费的金额:")
+qian = int(qian)
+
+while True:
+    xuanze = input("请您选择你要购买的产品:")
+    for item in goods:
+        if item["name"] == xuanze:
+            if qian >
+
+            gouwuche.append(xuanze)
+            print(gouwuche)
+
+        else:
+            print("您输入的产品有误，请您重新选择!")
+            continue
+
+
+
 
 
